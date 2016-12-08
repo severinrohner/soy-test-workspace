@@ -14,9 +14,20 @@ class View extends Component {
     attached() {
         console.log('attached');
     }
+
+    myClickFunction() {
+        alert('Jipi');
+    }
 }
 
 // Register component
 Soy.register(View, templates);
+
+View.STATE = {
+    releaseInfo: {
+        // The default value will be: `This is my default STATE value, yeah`.
+        value: 'This is my default STATE value, yeah'
+    }
+}
 
 export default View;

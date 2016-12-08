@@ -5,9 +5,12 @@
  *
  * @param id
  * @param releaseInfo
+ *
+ * @param myClickFunction
  */
 {template .render}
-        <div id="{$id}">
+        <div id="{$id}" >
                 <h3>{$releaseInfo}</h3>
         </div>
+        <button data-onclick="myClickFunction" type="button">ALERT BUTTON</button>
 {/template}
