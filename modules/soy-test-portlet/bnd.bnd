@@ -1,4 +1,3 @@
 Bundle-Name: Soy Test Portlet
 Bundle-SymbolicName: com.clavisit.clavisit.soy.test.portlet
-Bundle-Version: 1.0.0
 Require-Capability: soy;filter:="(type=metal)"
