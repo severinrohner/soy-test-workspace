@@ -4,11 +4,14 @@
  * Prints the Hello Soy portlet main view.
  *
  * @param id
- * @param releaseInfo
+ * @param? releaseInfo
  */
 {template .render}
         <div id="{$id}" >
-                <h3>{$releaseInfo}</h3>
+
+            <h1>Current Portal Version:</h1>
+            <p>{$releaseInfo}</p>
+            <button data-onclick="myClickFunction" type="button">Fast Portal Update ;-)</button>
+
         </div>
-        <button data-onclick="myClickFunction" type="button">ALERT BUTTON</button>
 {/template}
