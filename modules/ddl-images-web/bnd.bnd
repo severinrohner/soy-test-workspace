@@ -1,0 +1,5 @@
+Bundle-Name: DDL Images Portlet
+Bundle-SymbolicName: com.clavisit.clavisit.poc.ddl.images.web
+Bundle-Version: 1.0.3
+Require-Capability: soy;filter:="(type=metal)"
+-includeresource: package.json

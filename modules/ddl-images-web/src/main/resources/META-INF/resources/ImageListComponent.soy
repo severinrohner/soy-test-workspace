@@ -1,0 +1,25 @@
+{namespace ImageListComponent}
+
+/**
+ * CounterComponent
+ * @param? images
+ *
+ * Function References
+ *
+ */
+{template .render}
+    <div>
+        <button data-onclick="searchImages" type="button">Search</button>
+
+        <div>
+            {foreach $image in $images}
+                <a data-onclick="searchImages">
+                    <div class="col-xs-12 col-sm-4 col-md-3" >
+                        <img src="{$image.thumbnailPath}" class="img-responsive"/>
+                        <div>{$image.fileName}</div>
+                    </div>
+                </a>
+            {/foreach}
+        </div>
+    </div>
+{/template}

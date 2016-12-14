@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.clavisit.clavisit.poc.ddl.images.model.Image">
+		<field name="uuid" type="String" />
+		<field name="imageId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="fileName" type="String" />
+		<field name="description" type="String" />
+		<field name="imagePath" type="String" />
+		<field name="thumbnailPath" type="String" />
+		<field name="fileEnding" type="String" />
+		<field name="mimeType" type="String" />
+	</model>
+</model-hints>

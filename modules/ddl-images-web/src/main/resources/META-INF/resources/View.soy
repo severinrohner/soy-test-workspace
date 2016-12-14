@@ -1,0 +1,23 @@
+{namespace View}
+
+/**
+ * Prints the Hello Soy portlet main view.
+ *
+ * @param id
+ * @param? counter
+ * @param? images
+ *
+ */
+{template .render}
+        <div id="{$id}" >
+
+            <h1>Counter:</h1>
+            <p>{$counter}</p>
+            <button data-onclick="myClickFunction" type="button">Count</button>
+
+            {call ImageListComponent.render}
+                {param images: $images /}
+            {/call}
+
+        </div>
+{/template}
