@@ -43,8 +43,6 @@ class ImageListComponent extends Component {
      */
     attached() {
         console.log('Attached ImageListController');
-
-        this.searchImages(null);
     }
 
     /**
