@@ -35,7 +35,7 @@ import java.util.Map;
 			"javax.portlet.expiration-cache=0",
 			"javax.portlet.init-param.copy-request-parameters=true",
 			"javax.portlet.init-param.template-path=/",
-			"javax.portlet.init-param.view-template=View",
+			"javax.portlet.init-param.view-template=DDLImagesView",
 			"javax.portlet.name=ddl_images_portlet",
 			"javax.portlet.resource-bundle=content.Language",
 			"javax.portlet.security-role-ref=guest,power-user,user",
