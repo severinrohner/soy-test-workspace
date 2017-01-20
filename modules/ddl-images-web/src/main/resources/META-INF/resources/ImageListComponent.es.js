@@ -33,11 +33,6 @@ class ImageListComponent extends Component {
         });
     }
 
-    constructor(opt_config) {
-        super(opt_config);
-        console.log("constructor ImageList");
-    }
-
     /**
      * @inheritDoc
      */
